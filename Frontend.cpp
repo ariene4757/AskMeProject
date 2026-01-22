@@ -277,7 +277,7 @@ void Frontend::List_Feed() {
 		return;
 
 	}
-	cout << "\n================ = System Feed ================= \n";
+	cout << "\n================= System Feed ================= \n";
 	for (const auto& ques : feed) {
 		Print_Thread_Recursive(ques, 0);
 		cout << "-----------------------------------\n";
